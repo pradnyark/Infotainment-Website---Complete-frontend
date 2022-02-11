@@ -1,0 +1,10 @@
+.story{
+    position: relative;
+    min-width: 100%;
+}
+
+.story::after{
+    width: inherit;
+    display: block;
+    position: absolute;
+}
